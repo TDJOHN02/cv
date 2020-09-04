@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h3>Contact Info</h3>
+  <p>10 Berryville Rd<br>Trent, ON <br>Canada</p>
+  <p>1-800-555-6677</p>
+  <p>tjdesign@gmail.com</p>
+  <hr>
+  <form action="mailto:acerdriven@hotmail.com" method="post" enctype="text/plain"> <!-- the action attribute is sending the submit to our main webpage, change the form action to "mailto" and email address
+    remove the class attribute and add enctype(encode type) with the action "text/plain" so the form can bread in the email, Post take the data from the form and sends it to email -->
+    <label for="">Your Name:</label>
+    <input type="text" name="Your Name" value=""><br> <!--allows to input text -->
+    <label for="">Your Email:</label>
+    <input type="email" name="Your Email" value=""><br>
+    <label for="">Your Message:</label><br>
+    <textarea name="Your Message" rows="10" cols="30"></textarea><br>
+    <input type="submit" name=""> <!-- adds a submit button, change text to submit and remove value -->
+  </form>
+
+</body>
+
+</html>
